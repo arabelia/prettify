@@ -1,0 +1,25 @@
+/* Inserta tu CSS aqui */
+body{text-align: center;}
+.contenedor{width: 96%; margin: auto; }
+.sin-estilo{margin: 0; padding: 0; list-style: none;}
+.enlinea{display: inline-block;}
+.portada:first-child{text-align: center;}
+.fijo{z-index: 150; position: fixed; margin-left: -150px;  left: 50%; margin-top: 20px; background: #fff;}
+.menu{font-size: 16px; text-decoration: none; padding: 20px 10px; color: #9D0353;}
+a:visited{color: #EF5687;}
+a:hover{color: #F0034E; font-size: 17px;}
+.portada img{max-width:100%; margin-top: 40px; position: relative;}
+.portada h1{position: absolute; top: 100px; left: 50%; margin-left: -170px; font-family: Lora; color: #CB0F80;}
+
+.sobre-mi img {border-radius: 140px; border: 1px double #333; width: 200px; margin: 10px;}
+.cosas-fav img{border-radius: 190px; border: 1px double #333; width: 180px; margin: 35px;}
+.contacto img{border-radius: 150px; border: 1px double #333; width: 80px; margin: 20px; color: #57CB0F;}
+.contacto{background-image: url("../images/fondo4.png");}
+h2{padding: 20px 0px; color: #EC1A75;}
+p{color: #031226;}
+h3{color: #3A0F49; line-height: 1.8em; font-size: 1em }
+
+/*
+a:visited: Un enlace que ha sido visitado.
+a:hover: Un enlace sobre el que pasás el cursor.
+*/
